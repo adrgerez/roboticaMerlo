@@ -5,18 +5,18 @@ Servo brazo;  //Brazo(Parte gris) - Pin : 6 -- movimiento : 0 - 180
 Servo antebrazo;  //Antebrazo(Parte verde) - Pin : 4 -- movimiento : 60 - 150
 Servo pinza; //Pinza - Pin : 2 -- movimiento : 120 - 180
 
-void setup() {
 
+void setup() {
  base.attach(8,544,2400); // parametros del moviento del servo
  brazo.attach(6,544,2400);
  antebrazo.attach(4,544,2400);
  pinza.attach(2,544,2400);
-
 }
 
 void loop {
   
 }
+
 
 void movimiento(Servo &servo, int destino) {
 /*
