@@ -1,2 +1,2 @@
 # roboticaMerlo
-Códigos Fake para las clases de robótica
+Códigos pruebas y demás cosas, para las clases de robótica
