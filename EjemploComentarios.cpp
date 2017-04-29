@@ -33,9 +33,8 @@ double area(double radius);
 
 double volume(double radius);
 
-
-// Controls operation of the program.
 int main(void) {
+// Controls operation of the program.
     double radius_of_both, area_of_circle, volume_of_sphere;
 
     cout << "Enter a radius to use for both a circle\n"
@@ -54,12 +53,13 @@ int main(void) {
     return 0;
 }
 
-// Returns the area of a circle with the specified radius.
 double area(double radius) {
+// Returns the area of a circle with the specified radius.
     return (PI * pow(radius, 2));
 }
 
-// Returns the volume of a sphere with the specified radius.
+
 double volume(double radius) {
+// Returns the volume of a sphere with the specified radius.
     return ((4.0 / 3.0) * PI * pow(radius, 3));
 }
